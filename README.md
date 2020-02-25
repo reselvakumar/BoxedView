@@ -2,7 +2,7 @@
 
 This app is for the BoxedView library demo
 
-<img src="screenshots/Screen_1.png" width="256"/> <img src="screenshots/screen_2.png" width="256"/>
+<img src="screenshots/Screen1.png" width="256"/> <img src="screenshots/Screen_2.png" width="256"/>
 
 ## Steps to run the app
 
