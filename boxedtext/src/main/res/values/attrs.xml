@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="bt_itemCount" format="integer" />
+    <attr name="bt_itemWidth" format="dimension" />
+    <attr name="bt_itemHeight" format="dimension" />
+    <attr name="bt_itemRadius" format="dimension" />
+    <attr name="bt_itemSpacing" format="dimension" />
+    <attr name="bt_lineWidth" format="dimension" />
+    <attr name="bt_lineColor" format="reference|color" />
+
+    <attr name="bt_viewType" format="integer">
+        <flag name="rectangle" value="0"/>
+        <flag name="line" value="1"/>
+    </attr>
+
+    <declare-styleable name="BoxedTextViewTheme">
+        <attr name="BoxedTextViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BoxedTextView">
+        <attr name="bt_itemCount" />
+        <attr name="bt_itemWidth" />
+        <attr name="bt_itemHeight" />
+        <attr name="bt_itemRadius" />
+        <attr name="bt_itemSpacing" />
+        <attr name="bt_lineWidth" />
+        <attr name="bt_lineColor" />
+        <attr name="bt_viewType" />
+    </declare-styleable>
+
+
+    <declare-styleable name="BoxedEditTextTheme">
+        <attr name="BoxedEditTextStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BoxedEditText" parent="BoxedTextView">
+        <attr name="bt_itemCount" />
+        <attr name="bt_itemWidth" />
+        <attr name="bt_itemHeight" />
+        <attr name="bt_itemRadius" />
+        <attr name="bt_itemSpacing" />
+        <attr name="bt_lineWidth" />
+        <attr name="bt_lineColor" />
+        <attr name="bt_viewType" />
+
+        <attr name="android:cursorVisible" />
+        <attr name="bt_cursorWidth" format="dimension" />
+        <attr name="bt_cursorColor" format="reference|color" />
+    </declare-styleable>
+
+</resources>
