@@ -13,7 +13,7 @@ This app is for the BoxedView library demo
 * Build and run it on an Android device
 
 ## Demo
-[Demo.apk](.demo/demo.apk)
+[Demo.apk](demo/demo.apk)
 
 ## How to use
     ```
